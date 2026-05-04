@@ -5,7 +5,7 @@ public class Shell {
         this.array = arreglo;
     }
 
-    public void ShellSort(boolean asc) {
+    public void ShellSort(int array[],boolean asc) {
         System.out.println("==== METODO SHELL ====");
         System.out.println("Arreglo original:");
         printArray();

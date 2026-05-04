@@ -5,7 +5,7 @@ public  Insert(int[] arreglo){
     this.array = arreglo;
 
 }
-public void InsertSort(boolean asc){
+public void InsertSort(int array[] , boolean asc){
     System.out.println("==== METODO INSERCIÓN ====");
     System.out.println("Arreglo original");
     System.out.println();
