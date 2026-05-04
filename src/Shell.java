@@ -44,7 +44,7 @@ public class Shell {
                         System.out.println("");
                     }
                     while (j >= salto && array[j - salto] > aux) {
-                        if (j > i) comparaciones++; // Comparaciones extras dentro del while
+                        comparaciones++; // Comparaciones extras dentro del while
                         System.out.println(array[j - salto]+", " + array[j] +"---------- i= " + i + " j= " + (j - salto) + " [i]= " + aux + " [j]= " + array[j - salto]);
                         array[j] = array[j - salto];
                         j -= salto;
@@ -62,7 +62,7 @@ public class Shell {
                         System.out.println("");
                     }
                     while (j >= salto && array[j - salto] < aux) {
-                        if (j > i) comparaciones++;
+                        comparaciones++;
                         
                         System.out.println("       " + array[j]+", " + array[j-salto] +"---------- i= " + i + " j= " + (j - salto) + " [i]= " + aux + " [j]= " + array[j - salto]);
                         array[j] = array[j - salto];
